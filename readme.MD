@@ -19,7 +19,7 @@ o en modo desarrollo 👇🏻
 ```bash
 npm run dev
 ```
-El **puerto** por el que corre el API es el `5000`
+El **puerto** por el que corre el FRONT es el `4500`
 
 El API se encuentra alojada en vercel
 [[https://api-product-electiva.herokuapp.com/](https://api-market-bivz.vercel.app/)]([https://api-product-electiva.herokuapp.com/](https://api-market-bivz.vercel.app/))

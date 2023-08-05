@@ -1,5 +1,5 @@
 //en caso de que falle alguna https://api-market-bivz-red.vercel.app https://api-market-bivz.vercel.app
-const API_URL ='https://api-market-bivz-red.vercel.app'
+const API_URL ='https://api-market-bivz.vercel.app'
 let products=[];
 let listHTML="";
 

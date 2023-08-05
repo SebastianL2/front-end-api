@@ -2,10 +2,11 @@
   "name": "supermarket",
   "version": "1.0.0",
   "description": "API REST FULL to implements in a supermarket",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon app"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Sebastian Cely Peña",
   "license": "ISC",

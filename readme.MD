@@ -22,7 +22,7 @@ npm run dev
 El **puerto** por el que corre el FRONT es el `4500`
 
 El API se encuentra alojada en vercel
-[[https://api-product-electiva.herokuapp.com/](https://api-market-bivz.vercel.app/)]([https://api-product-electiva.herokuapp.com/](https://api-market-bivz.vercel.app/))
+[[https://api-market-bivz.vercel.app//](https://api-market-bivz.vercel.app/)]]
 
 Se uso **Mongo Atlas** para gestionar la base de datos en la nube.  
 

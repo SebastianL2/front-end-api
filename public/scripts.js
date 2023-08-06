@@ -26,15 +26,7 @@ const renderResult = (products)=>{
    products.forEach(product=> {
     listHTML += `
     
-        <h5 class="card-title">${product.description}</h5>
-        <ul>
-        <li>_id: ${product._id}</li>
-        <li>Descripcion: ${product.description}</li>
-        <li>Precio: ${product.value}</li>
-        <li>Caducacion: ${product.dateExpired.slice(0, 10)}</li>
-    </ul>
-        <div class="container text-end">
-      
+     
      
         
     `
@@ -87,30 +79,7 @@ productsList.innerHTML = listHTML;
         console.log("data 2: ",searchInput);
     console.log(`${product.name}`);
     listHTML += `
-    
-    <h5 class="card-title">Nombre ${product.name}</h5>
-    <ul>
-        <li>_id: ${product._id}</li>
-        <li>Descripcion: ${product.description}</li>
-        <li>Precio: ${product.value}</li>
-        <li>Caducacion: ${product.dateExpired.slice(0, 10)}</li>
-    </ul>
-    <div class="container text-end">
-    <button
-      class="btn btn-secondary"
-      type="button"
-      data-bs-toggle="modal"
-      data-bs-target="#editTeamModal"
-      style="background-color: rgb(35, 16, 141);"
-    >
-      Edit ✏️
-    </button>
-    <button
-      class="btn btn-danger"
-      
-    >
-      Delete 🗑️
-    </button>
+ 
         
     `
       }

@@ -1,5 +1,5 @@
 
-const API_URL ='https://api-market-bivz.vercel.app'
+const API_URL ='http://localhost:5000'
 let products=[];
 let listHTML="";
 
